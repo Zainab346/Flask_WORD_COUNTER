@@ -1,0 +1,52 @@
+h1 {
+    color: #ebd40a;
+    text-align: left;
+    font-weight: bolder;
+}
+
+h3#First {
+    color: rgb(48, 7, 87);
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
+
+h2 {
+    color: crimson;
+}
+
+.Headerclass {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(Foodtarka2.jpg);
+    width: 1500px;
+    height: 400px;
+    background-repeat: round;
+}
+
+.NAVBAR {
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(221, 132, 16);
+    border-radius: 30px;
+    padding: 0.002px 0.002px;
+}
+
+.NAVBAR li {
+    display: inline; /* Change "float: left;" to "display: inline;" */
+    list-style: none;
+}
+
+.NAVBAR ul {
+    overflow: auto;
+}
+
+.NAVBAR li a:hover {
+    color: black;
+}
+
+.NAVBAR li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+}

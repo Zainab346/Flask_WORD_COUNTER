@@ -1,0 +1,31 @@
+h1,p{
+    color: cornflowerblue;
+}
+
+li{
+    list-style-type: square;
+}
+
+.First{
+    color: rgb(125, 55, 206);
+    font-weight: bold;
+}
+li em {
+    color: brown;
+}
+
+body h2+p.First{
+    color: yellow;
+    background-color: cyan;
+    padding: 5px;
+}
+#heading{
+    color: black;
+    background-color: aqua;
+}
+p#one{
+ color: chartreuse;
+}
+li[class="Second"]{
+    color: brown;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="specificity.css">
+    <title>Specificity</title>
+   <style>
+    body {
+        color: blue;
+    }
+       .Unset{
+         color:unset;
+       }
+   </style>
+</head>
+<body>
+    <ul id="summer_drink">
+        <li>Default<a href="">Link</a>color</li>
+        <li class ="inherited" inherited><a href="">Link</a>color</li>
+        <li class ="Initial">Initial<a href="">Link</a>color</li>
+        <li class=""Unset>Unset<a href="">Link</a> color</li>
+    </ul>
+    
+</body>
+</html>
