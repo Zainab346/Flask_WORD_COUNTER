@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="{{ url_for('static' , filename = '/css/styles.css')}}">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- <title>Words and Paragraphs Counter</title> -->
+
+</head>
+<body>
+
+  <header>
+    <!-- place navbar here -->
+  </header>
+
+  <main>
+    
+
+    <div class="row text-center" style="padding: 40px;margin: 70px;">
+        <div class="col">
+            <form action='/count' method="POST" enctype="multipart/form-data">
+
+                <h2 >Words and Characters Count</h2>
+                <br/>
+                <label><b>Enter Text*</b></label>
+                <br>
+                <textarea type="text" id="text" name='text' required></textarea>
+                <br>
+                <button
+                    type='submit' class='btn btn-primary'>COUNT</button>
+
+                {% if words %}
+
+                <p class="text-center">Words - {{ words }} || Characters - {{ characters }}</p>
+               
+                {% endif %}
+            </form>
+        </div>
+    </div>
+
+  </main>
+
+
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/129325364/original/afaddcb9d7dfaaf5bff7ef04101935814665ac16/design-an-attractive-background-for-your-website.png');
+     background-size: cover; 
+     /* background-size: 10; */
+    font-family: sans-serif;
+    margin-top: 100px;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+  border-radius: 20px 20px 0px 0px;
+  background-color: #e9bd0d;
+  color: white;
+  padding: 10px;
+}
+
+.col{
+      border-radius: 20px;
+      padding: 0px;
+      background-color:#37485f;
+      margin:0px 75px 20px 75px;
+      height: 400px;
+}
+
+#text{
+    font-size: 20px;
+    width: 650px;
+    margin-top: 10px;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+}
+
+button{
+      font-size: 24px;
+      font-weight: bold;
+      border-radius: 12px;
+      width:100px;
+      padding: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+}
+
+p{
+    color:rgb(252, 247, 247);
+    font-size: 21px;
+    margin-top: 15px;
+}
